@@ -1,0 +1,114 @@
+.contacts-page .container { width: min(1260px, calc(100% - 64px)); }
+.contacts-page .site-header__inner { justify-content: flex-start; }
+.contacts-breadcrumb { display: flex; align-items: center; gap: 12px; padding-top: 48px; color: #777c78; font-size: 11px; }
+.contacts-breadcrumb a { color: inherit; text-decoration: none; }
+.contacts-breadcrumb a:hover { color: var(--accent); }
+.contacts-intro > .section-eyebrow { margin-top: 48px; }
+.contacts-intro h1 { margin: 29px 0 26px; color: #242724; font-size: clamp(58px, 6vw, 72px); font-weight: 400; line-height: .98; letter-spacing: -.065em; }
+.contacts-intro h1 span { color: #bd2632; }
+.contacts-intro__address { margin: 0; color: #707673; font-size: 16px; line-height: 1.5; }
+.contacts-intro__actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 27px; }
+.contacts-button, .contacts-copy { min-height: 54px; display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 21px; font-family: inherit; font-size: 12px; font-weight: 700; text-decoration: none; }
+.contacts-button { min-width: 209px; color: #fff; background: #242725; transition: background 160ms ease; }
+.contacts-button:hover { background: var(--accent); }
+.contacts-button > span:last-child { font-size: 20px; font-weight: 400; }
+.contacts-copy { min-width: 200px; border: 1px solid #d6d7d2; color: #444945; background: #fff; cursor: pointer; transition: color 160ms ease, border-color 160ms ease; }
+.contacts-copy:hover { border-color: var(--accent); color: var(--accent); }
+.contacts-copy svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; clip-path: inset(50%); }
+
+.contact-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 79px; }
+.contact-card { min-width: 0; min-height: 308px; padding: 30px 29px 26px; border: 1px solid #e0e0dc; background: #fff; }
+.contact-card > svg { width: 26px; height: 26px; fill: none; stroke: #bd2632; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.contact-card h2 { margin: 28px 0 0; color: #2b2e2b; font-size: 23px; font-weight: 400; line-height: 1.2; letter-spacing: -.03em; }
+.contact-card__detail { min-height: 17px; margin: 14px 0 0; color: #656b68; font-size: 12px; line-height: 1.45; }
+.contact-card__phone { display: block; width: fit-content; margin-top: 25px; color: #282b28; font-size: 19px; line-height: 1.25; text-decoration: none; white-space: nowrap; }
+.contact-card__phone:hover, .contact-card__email:hover { color: var(--accent); }
+.contact-card__phone--secondary { margin-top: 12px; font-size: 14px; }
+.contact-card__email { display: inline-block; margin-top: 12px; color: #282b28; font-size: 14px; text-decoration: none; }
+.contact-card__note { margin: 26px 0 0; color: #777c78; font-size: 10px; line-height: 1.5; }
+.contact-card__email + .contact-card__note { margin-top: 26px; }
+.contacts-note { margin-top: 18px; color: #777c78; font-size: 10px; line-height: 1.55; }
+
+.territory { padding-top: 109px; padding-bottom: 106px; }
+.territory__intro { display: grid; grid-template-columns: 1.04fr .96fr; align-items: start; gap: 52px; }
+.territory__intro h2 { margin: 27px 0 0; color: #242724; font-size: clamp(42px, 4.2vw, 52px); font-weight: 400; line-height: 1.07; letter-spacing: -.055em; }
+.territory__intro > p { max-width: 610px; margin: 40px 0 0; color: #646a68; font-size: 16px; line-height: 1.65; }
+.territory__layout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); align-items: center; gap: 54px; margin-top: 38px; }
+.territory-map { min-width: 0; margin: 0; }
+.territory-map img { display: block; width: 100%; height: auto; background: #f4f4f0; }
+.territory-map figcaption { margin-top: 17px; color: #777c78; font-size: 9px; line-height: 1.5; }
+.territory-info { min-width: 0; }
+.territory-info__item { display: grid; grid-template-columns: 62px minmax(0, 1fr); gap: 18px; align-items: start; padding: 22px 0 20px; border-top: 1px solid #deded9; }
+.territory-info__item:last-of-type { border-bottom: 1px solid #deded9; }
+.territory-info__item > strong { color: #a83f48; font-size: 25px; font-weight: 400; line-height: 1.1; }
+.territory-info__item h3 { margin: 2px 0 0; color: #333734; font-size: 13px; font-weight: 400; line-height: 1.3; }
+.territory-info__item p { margin: 10px 0 0; color: #777c78; font-size: 10px; line-height: 1.45; }
+.territory-info__links { display: flex; align-items: flex-start; flex-wrap: wrap; gap: 12px 23px; margin-top: 25px; }
+.territory-info__links a, .travel-card > a, .travel-card__links a { display: inline-flex; align-items: center; gap: 12px; color: #292c29; font-size: 11px; font-weight: 700; line-height: 1.4; text-decoration: none; }
+.territory-info__links a:hover, .travel-card > a:hover, .travel-card__links a:hover { color: var(--accent); }
+.territory-info__links a span, .travel-card > a span, .travel-card__links a span { font-size: 16px; font-weight: 400; }
+
+.travel-info { background: #f2f2ef; }
+.travel-info__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 52px 80px; padding-block: 78px 86px; }
+.travel-card { min-width: 0; padding-top: 25px; border-top: 1px solid #d6d7d1; }
+.travel-card > svg { width: 26px; height: 26px; margin-bottom: 36px; fill: none; stroke: #bd2632; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.travel-card .section-eyebrow { margin-bottom: 18px; }
+.travel-card h2 { margin: 0; color: #292c29; font-size: 29px; font-weight: 400; line-height: 1.2; letter-spacing: -.035em; }
+.travel-card__copy { min-height: 62px; margin: 17px 0 22px; color: #6b716e; font-size: 13px; line-height: 1.65; }
+.travel-card__links { display: flex; flex-wrap: wrap; gap: 10px 22px; }
+
+.contacts-page .site-footer { margin-top: 0; }
+.contacts-page .site-footer__nav a[aria-current="page"] { color: #e0a0a5; }
+
+@media (max-width: 1060px) {
+  .contacts-page .container { width: min(100% - 48px, 1260px); }
+  .contact-cards { gap: 14px; }
+  .contact-card { padding-inline: 22px; }
+  .contact-card h2 { font-size: 21px; }
+  .contact-card__phone { font-size: 17px; }
+  .territory__layout { gap: 34px; }
+  .travel-info__grid { gap: 42px 52px; }
+}
+@media (max-width: 860px) {
+  .contacts-page .container { width: calc(100% - 36px); }
+  .contacts-breadcrumb { padding-top: 35px; }
+  .contacts-intro > .section-eyebrow { margin-top: 38px; }
+  .contacts-intro h1 { margin-top: 23px; font-size: clamp(52px, 8vw, 64px); }
+  .contact-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 58px; }
+  .contact-card:last-child { grid-column: 1 / -1; min-height: 240px; }
+  .territory { padding-block: 78px; }
+  .territory__intro { grid-template-columns: 1fr; gap: 18px; }
+  .territory__intro > p { margin-top: 0; }
+  .territory__layout { grid-template-columns: 1fr; gap: 32px; }
+  .territory-info__item { grid-template-columns: 72px minmax(0, 1fr); }
+  .travel-info__grid { gap: 36px 34px; padding-block: 60px; }
+}
+@media (max-width: 600px) {
+  .contacts-page .container { width: calc(100% - 28px); }
+  .contacts-breadcrumb { padding-top: 28px; }
+  .contacts-intro > .section-eyebrow { margin-top: 30px; }
+  .contacts-intro h1 { margin: 20px 0 20px; font-size: clamp(47px, 12vw, 58px); }
+  .contacts-intro__address { font-size: 14px; }
+  .contacts-intro__actions { align-items: stretch; flex-direction: column; margin-top: 22px; }
+  .contacts-button, .contacts-copy { width: 100%; }
+  .contact-cards { grid-template-columns: 1fr; gap: 12px; margin-top: 42px; }
+  .contact-card, .contact-card:last-child { min-height: 0; grid-column: auto; padding: 25px 22px; }
+  .contact-card h2 { margin-top: 22px; }
+  .contact-card__detail { min-height: 0; }
+  .contact-card__phone { margin-top: 21px; }
+  .contact-card__note { margin-top: 20px; }
+  .contacts-note { margin-top: 15px; font-size: 9px; }
+  .territory { padding-block: 68px 60px; }
+  .territory__intro h2 { margin-top: 19px; font-size: 40px; }
+  .territory__intro > p { font-size: 14px; }
+  .territory__layout { gap: 26px; margin-top: 27px; }
+  .territory-map figcaption { font-size: 9px; }
+  .territory-info__item { grid-template-columns: 57px minmax(0, 1fr); gap: 13px; padding-block: 18px; }
+  .territory-info__links { flex-direction: column; gap: 13px; }
+  .travel-info__grid { grid-template-columns: 1fr; gap: 34px; padding-block: 45px; }
+  .travel-card { padding-top: 20px; }
+  .travel-card > svg { margin-bottom: 28px; }
+  .travel-card h2 { font-size: 26px; }
+  .travel-card__copy { min-height: 0; margin-block: 14px 18px; font-size: 12px; }
+}

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Офисы, торговые, выставочные и складские помещения в бизнес-центре «Аквилон»">
+    <title>Бизнес-центр и аренда — «Аквилон»</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./arenda.css">
+    <script src="../app.js" defer></script>
+  </head>
+  <body class="rental-page">
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <div class="topline">
+      <div class="topline__inner container">
+        <span>Санкт-Петербург, Новолитовская ул., 15</span>
+        <span>Мебельный центр&nbsp;&nbsp;Ежедневно, 10:00–20:00</span>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="site-header__inner container">
+        <a class="brand" href="/" aria-label="Аквилон — главная">
+          <img src="../assets/akvilon-logo.svg" alt="Аквилон — торгово-деловой комплекс" width="177" height="34">
+          <span class="brand__caption">ТОРГОВО-ДЕЛОВОЙ КОМПЛЕКС</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="menu-toggle__label">Меню</span>
+          <span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-navigation" aria-label="Основная навигация">
+          <a class="primary-nav__link" href="/">О комплексе</a>
+          <a class="primary-nav__link" href="/catalog/">Мебель и интерьер</a>
+          <a class="primary-nav__link" href="/scheme/">Схема и инфраструктура</a>
+          <a class="primary-nav__link is-current" href="/arenda/" aria-current="page">Бизнес-центр и аренда</a>
+          <a class="primary-nav__link" href="/contacts/">Контакты и проезд</a>
+        </nav>
+
+        <a class="header-phone" href="tel:+79522092821">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.1 3.7 9.5 3a1.5 1.5 0 0 1 1.8 1.1l.7 3a1.5 1.5 0 0 1-.6 1.6l-1.6 1.1a13 13 0 0 0 4.4 4.4l1.1-1.6a1.5 1.5 0 0 1 1.6-.6l3 .7a1.5 1.5 0 0 1 1.1 1.8l-.7 2.4a2 2 0 0 1-2 1.5A15.5 15.5 0 0 1 4.6 6a2 2 0 0 1 1.5-2.3Z"/></svg>
+          <span>+7 (952) 209-28-21</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="rental-hero container" aria-labelledby="rental-page-title">
+        <nav class="rental-breadcrumb" aria-label="Навигационная цепочка"><a href="/">Главная</a><span aria-hidden="true">/</span></nav>
+        <div class="rental-hero__top">
+          <div>
+            <p class="section-eyebrow">Бизнес-центр и аренда</p>
+            <h1 id="rental-page-title">Пространство<br>для вашего дела<span>.</span></h1>
+          </div>
+          <div class="rental-hero__aside">
+            <p>Офисы, торговые, выставочные и складские помещения. Расскажите о своей задаче — отдел аренды уточнит доступные варианты и условия.</p>
+            <a class="rental-hero__button" href="#rental-contact"><span>Связаться с отделом аренды</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5"/></svg></a>
+          </div>
+        </div>
+        <figure class="rental-hero__image-wrap">
+          <img src="../assets/furniture-center.png" alt="Бизнес-центр «Аквилон» на Новолитовской улице">
+          <figcaption>Санкт-Петербург, Новолитовская улица, 15</figcaption>
+        </figure>
+      </section>
+
+      <section class="rental-formats container" aria-labelledby="rental-formats-title">
+        <div class="rental-formats__intro">
+          <div>
+            <p class="section-eyebrow">Возможности</p>
+            <h2 id="rental-formats-title">Место под<br>вашу задачу</h2>
+          </div>
+          <p>В комплексе представлены разные форматы коммерческих помещений. Наличие свободных площадей, стоимость и условия договора уточняются индивидуально.</p>
+        </div>
+        <div class="rental-formats__grid">
+          <article class="rental-format"><span class="rental-format__number">01</span><h3>Офисы</h3><p>Для команды и ежедневной работы.</p></article>
+          <article class="rental-format"><span class="rental-format__number">02</span><h3>Торговые помещения</h3><p>Для магазина и общения с покупателями.</p></article>
+          <article class="rental-format"><span class="rental-format__number">03</span><h3>Выставочные площади</h3><p>Для знакомства с вашей продукцией.</p></article>
+          <article class="rental-format"><span class="rental-format__number">04</span><h3>Складские помещения</h3><p>Для хранения и организации поставок.</p></article>
+        </div>
+      </section>
+
+      <section class="rental-infrastructure" aria-labelledby="rental-infrastructure-title">
+        <div class="rental-infrastructure__inner container">
+          <img class="rental-infrastructure__image" src="../assets/arenda-corridor.png" alt="Коридор офисных помещений комплекса">
+          <div class="rental-infrastructure__content">
+            <p class="section-eyebrow">Инфраструктура</p>
+            <h2 id="rental-infrastructure-title">Работать<br>с комфортом</h2>
+            <div class="rental-infrastructure__items">
+              <article class="rental-infrastructure__item">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 22V2h7a6.5 6.5 0 0 1 0 13H7m0-4h7a2.5 2.5 0 0 0 0-5H7"/></svg>
+                <div><h3>Парковка на территории</h3><p>Условия для сотрудников и посетителей уточните в отделе аренды.</p></div>
+              </article>
+              <article class="rental-infrastructure__item">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21h16M6 21V4h12v17M9 8h2m2 0h2M9 12h2m2 0h2M9 16h2m2 0h2"/></svg>
+                <div><h3>Обслуживание комплекса</h3><p>На сайте БЦ указаны охрана, видеонаблюдение и обслуживание общих зон.</p></div>
+              </article>
+              <article class="rental-infrastructure__item">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+                <div><h3>Городская локация</h3><p>Выборгский район Санкт-Петербурга, Новолитовская улица, 15.</p></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rental-contact-card container" id="rental-contact" aria-labelledby="rental-contact-title">
+        <div class="rental-contact-card__intro">
+          <p class="section-eyebrow">Прямой контакт</p>
+          <h2 id="rental-contact-title">Обсудим<br>ваше помещение?</h2>
+          <p>Сообщите желаемую площадь, назначение помещения и удобное время просмотра. Отдел аренды расскажет о доступных вариантах.</p>
+        </div>
+        <div class="rental-contact-card__details">
+          <p class="rental-contact-card__label">Отдел аренды</p>
+          <a class="rental-contact-card__phone" href="tel:+78125963476">+7 (812) 596-34-76</a>
+          <a class="rental-contact-card__phone" href="tel:+79313131878">+7 (931) 313-18-78</a>
+          <a class="rental-contact-card__email" href="mailto:akvilon4@ya.ru?subject=%D0%90%D1%80%D0%B5%D0%BD%D0%B4%D0%B0%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%90%D0%BA%D0%B2%D0%B8%D0%BB%D0%BE%D0%BD%D0%B5"><span>akvilon4@ya.ru</span><span aria-hidden="true">↗</span></a>
+          <p class="rental-contact-card__hours">Пн–пт, 10:00–18:00, по производственному календарю</p>
+        </div>
+      </section>
+
+      <section class="rental-faq" aria-labelledby="rental-faq-title">
+        <div class="rental-faq__inner">
+          <p class="section-eyebrow">Перед обращением</p>
+          <h2 id="rental-faq-title">Частые вопросы</h2>
+          <div class="rental-faq__list">
+            <details class="rental-faq__item">
+              <summary>Где посмотреть свободные помещения?</summary>
+              <p>Актуальный список предоставляет отдел аренды. Позвоните или напишите: публичные объявления старого сайта могут не отражать текущую доступность.</p>
+            </details>
+            <details class="rental-faq__item">
+              <summary>Как узнать стоимость и условия?</summary>
+              <p>Стоимость зависит от назначения и площади. Состав платежа, дополнительные услуги, доступ к помещению и парковке уточняются перед заключением договора.</p>
+            </details>
+            <details class="rental-faq__item">
+              <summary>Можно ли договориться о просмотре?</summary>
+              <p>Согласуйте просмотр с отделом аренды по телефону <a href="tel:+78125963476">+7 (812) 596-34-76</a>. Уточните нужный корпус, вход и время встречи.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit-section container" id="contacts" aria-labelledby="visit-title">
+        <div class="visit-section__main">
+          <p class="section-eyebrow">Легко найти</p>
+          <h2 id="visit-title">Встретимся<br>на Новолитовской</h2>
+          <p class="visit-section__address">Санкт-Петербург, Новолитовская улица, 15<br><span>Мебельный центр</span></p>
+          <div class="visit-details">
+            <div class="visit-detail"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><p><span>Ежедневно</span><small>10:00–20:00</small></p></div>
+            <div class="visit-detail"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 22V2h7a6.5 6.5 0 0 1 0 13H7m0-4h7a2.5 2.5 0 0 0 0-5H7"/></svg><p><span>Парковка на территории</span><small>Условия въезда — у администрации</small></p></div>
+          </div>
+          <div class="visit-actions">
+            <a class="visit-button" href="https://yandex.ru/maps/?rtext=~Санкт-Петербург%2C%20Новолитовская%20улица%2C%2015В&rtt=auto" target="_blank" rel="noopener noreferrer"><span>Построить маршрут</span><span class="visit-button__arrow" aria-hidden="true">↗</span></a>
+            <a class="visit-link" href="/contacts/">Контакты и проезд <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <a class="visit-map" href="https://yandex.ru/maps/?text=Санкт-Петербург%2C%20Новолитовская%20улица%2C%2015В" target="_blank" rel="noopener noreferrer" aria-label="Открыть Аквилон в Яндекс Картах">
+          <div class="visit-map__art" aria-hidden="true">
+            <svg class="visit-map__drawing" viewBox="0 0 700 400" preserveAspectRatio="xMidYMid slice"><rect width="700" height="400" fill="#eeefe9"/><path d="M0 70H700M0 150H700M0 230H700M0 310H700M90 0V400M190 0V400M290 0V400M390 0V400M490 0V400M590 0V400" stroke="#e1e2dc" stroke-width="1"/><path d="M-40 360 740 160" stroke="#fff" stroke-width="56"/><path d="M55 -35 185 435" stroke="#fff" stroke-width="36"/><path d="M320 80 475 42 515 148 350 178Z M525 225 677 190 710 305 547 340Z M215 259 345 225 375 312 240 346Z" fill="#dfe2d9"/><text x="425" y="242" fill="#969b96" font-size="13" font-family="Arial" transform="rotate(-14 425 242)">Новолитовская улица</text><text x="105" y="117" fill="#969b96" font-size="12" font-family="Arial" transform="rotate(75 105 117)">Большой Сампсониевский проспект</text></svg>
+            <div class="visit-map__pin"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><strong>Аквилон</strong><span>Новолитовская, 15</span></div>
+          </div>
+          <div class="visit-map__caption"><span><strong>Санкт-Петербург · Выборгский район</strong><small>Условный ориентир, не схема проезда</small></span><span class="visit-map__open" aria-hidden="true">↗</span></div>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner container">
+        <div class="site-footer__brand-block">
+          <a class="site-footer__brand" href="/" aria-label="Аквилон — главная"><img src="../assets/akvilon-logo.svg" alt="Аквилон" width="177" height="34"><span>Торгово-деловой комплекс</span></a>
+          <p class="site-footer__address">Санкт-Петербург,<br>Новолитовская улица, 15</p>
+          <p class="site-footer__tagline">Мебель для дома. Пространство для бизнеса.</p>
+        </div>
+        <nav class="site-footer__nav" aria-label="Навигация в подвале">
+          <a href="/">О комплексе</a><a href="/catalog/">Мебель и интерьер</a><a href="/scheme/">Схема и инфраструктура</a><a href="/arenda/">Бизнес-центр и аренда</a><a href="/contacts/">Контакты и проезд</a>
+        </nav>
+        <div class="site-footer__contacts">
+          <p class="site-footer__label">Мебельный центр</p><a class="site-footer__phone" href="tel:+79522092821">+7 (952) 209-28-21</a><p class="site-footer__hours">Ежедневно, 10:00–20:00</p>
+          <p class="site-footer__label site-footer__label--rental">Отдел аренды</p><a class="site-footer__phone" href="tel:+78125963476">+7 (812) 596-34-76</a><a class="site-footer__email" href="mailto:akvilon4@ya.ru">akvilon4@ya.ru</a>
+        </div>
+        <details class="site-footer__legal"><summary>Правовая информация и конфиденциальность</summary><p>Сведения с сайта комплекса проверены 24.10.2026. Условия посещения уточняйте у администрации.</p></details>
+        <div class="site-footer__bottom"><span>© 2026 Аквилон</span><span>Сведения с сайта комплекса проверены 24.10.2026. Условия посещения уточняйте у администрации.</span></div>
+      </div>
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Торгово-деловой комплекс «Аквилон» в Санкт-Петербурге">
+    <title>Аквилон — торгово-деловой комплекс</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <div class="topline">
+      <div class="topline__inner container">
+        <span>Санкт-Петербург, Новолитовская ул., 15</span>
+        <span>Мебельный центр&nbsp;&nbsp;Ежедневно, 10:00–20:00</span>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="site-header__inner container">
+        <a class="brand" href="./" aria-label="Аквилон — главная">
+          <img src="./assets/akvilon-logo.svg" alt="Аквилон — торгово-деловой комплекс" width="177" height="34">
+          <span class="brand__caption">ТОРГОВО-ДЕЛОВОЙ КОМПЛЕКС</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="menu-toggle__label">Меню</span>
+          <span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-navigation" aria-label="Основная навигация">
+          <a class="primary-nav__link is-current" href="#main" aria-current="page">О комплексе</a>
+          <a class="primary-nav__link" href="/catalog/">Мебель и интерьер</a>
+          <a class="primary-nav__link" href="/scheme/">Схема и инфраструктура</a>
+          <a class="primary-nav__link" href="/arenda/">Бизнес-центр и аренда</a>
+          <a class="primary-nav__link" href="/contacts/">Контакты и проезд</a>
+        </nav>
+
+        <a class="header-phone" href="tel:+79522092821">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.1 3.7 9.5 3a1.5 1.5 0 0 1 1.8 1.1l.7 3a1.5 1.5 0 0 1-.6 1.6l-1.6 1.1a13 13 0 0 0 4.4 4.4l1.1-1.6a1.5 1.5 0 0 1 1.6-.6l3 .7a1.5 1.5 0 0 1 1.1 1.8l-.7 2.4a2 2 0 0 1-2 1.5A15.5 15.5 0 0 1 4.6 6a2 2 0 0 1 1.5-2.3Z"/></svg>
+          <span>+7 (952) 209-28-21</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero container" aria-labelledby="hero-title">
+        <img class="hero__image" src="./assets/hero-aerial.png" alt="Вид сверху на здания и территорию комплекса «Аквилон»">
+        <div class="hero__shade" aria-hidden="true"></div>
+        <div class="hero__content">
+          <p class="hero__eyebrow"><span aria-hidden="true"></span> Санкт-Петербург · Новолитовская, 15</p>
+          <h1 id="hero-title">Пространство для дома.<br>Место для бизнеса.</h1>
+          <p class="hero__description">Мебельные салоны, интерьерные решения и помещения для вашей компании — на Новолитовской улице в Санкт-Петербурге.</p>
+          <div class="hero__actions">
+            <a class="button button--light" href="/contacts/">Как добраться <span aria-hidden="true">↗</span></a>
+            <a class="button button--outline" href="/arenda/">Аренда помещений <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <p class="hero__caption">Аквилон / торговля и бизнес</p>
+      </section>
+
+      <nav class="quick-links container" aria-label="Быстрые переходы">
+        <a class="quick-link" href="/catalog/">
+          <svg class="quick-link__icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 11V7.5A2.5 2.5 0 0 1 8.5 5h7A2.5 2.5 0 0 1 18 7.5V11M4 10a2 2 0 0 1 2 2v2h12v-2a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v6H2v-6a2 2 0 0 1 2-2ZM5 18v2m14-2v2" />
+          </svg>
+          <span class="quick-link__copy">
+            <span class="quick-link__title">Мебель и интерьер</span>
+            <span class="quick-link__description">Направления мебели и советы</span>
+          </span>
+          <svg class="quick-link__arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M7 5h8v8" /></svg>
+        </a>
+        <a class="quick-link" href="/arenda/">
+          <svg class="quick-link__icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 21h16M6 21V5h12v16M9 8h2m2 0h2M9 12h2m2 0h2M9 16h2m2 0h2M3 21v-5h3m12 0h3v5" />
+          </svg>
+          <span class="quick-link__copy">
+            <span class="quick-link__title">Бизнес-центр</span>
+            <span class="quick-link__description">Офисы и коммерческие помещения</span>
+          </span>
+          <svg class="quick-link__arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M7 5h8v8" /></svg>
+        </a>
+        <a class="quick-link" href="/contacts/">
+          <svg class="quick-link__icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 22V2h7.5a6.5 6.5 0 0 1 0 13H6m0-4h7a2.5 2.5 0 0 0 0-5H6" />
+          </svg>
+          <span class="quick-link__copy">
+            <span class="quick-link__title">Удобный визит</span>
+            <span class="quick-link__description">Проезд и парковка</span>
+          </span>
+          <svg class="quick-link__arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M7 5h8v8" /></svg>
+        </a>
+      </nav>
+
+      <section class="about container" aria-labelledby="about-title">
+        <div class="about__intro">
+          <div class="about__heading">
+            <p class="section-eyebrow">О комплексе</p>
+            <h2 id="about-title">Два направления.<br>Один Аквилон.</h2>
+          </div>
+          <div class="about__copy">
+            <p>Здесь выбирают мебель для дома и находят пространство для работы. «Аквилон» объединяет мебельный центр и бизнес-центр на общей территории в Выборгском районе Санкт-Петербурга.</p>
+            <p>Приезжайте за интерьерными решениями, на деловую встречу или знакомство с будущим офисом.</p>
+          </div>
+        </div>
+
+        <div class="about__cards">
+          <a class="about-card" href="/catalog/">
+            <img class="about-card__image" src="./assets/business-center.png" alt="Здание мебельного центра «Аквилон»">
+            <div class="about-card__body">
+              <span class="section-eyebrow">Для дома</span>
+              <div class="about-card__heading">
+                <h3>Мебельный центр</h3>
+                <span class="about-card__arrow" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M5 15 15 5M7 5h8v8" /></svg></span>
+              </div>
+              <p>Мебельные салоны и решения для вашего интерьера.</p>
+            </div>
+          </a>
+          <a class="about-card" href="/arenda/">
+            <img class="about-card__image" src="./assets/furniture-center.png" alt="Здание бизнес-центра «Аквилон»">
+            <div class="about-card__body">
+              <span class="section-eyebrow">Для бизнеса</span>
+              <div class="about-card__heading">
+                <h3>Бизнес-центр</h3>
+                <span class="about-card__arrow" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M5 15 15 5M7 5h8v8" /></svg></span>
+              </div>
+              <p>Место для работы, встреч и развития вашей компании.</p>
+            </div>
+          </a>
+        </div>
+
+        <p class="about__note">*Размещение в 15В указано в шапке и новости действующего сайта; отдельные старые страницы содержат другие сведения. Перед визитом уточните корпус нужного салона.</p>
+      </section>
+
+      <section class="brand-section" id="brands" aria-labelledby="brands-title">
+        <div class="brand-section__inner container">
+          <div class="brand-section__heading">
+            <div class="brand-section__title-group">
+              <p class="section-eyebrow brand-section__eyebrow">Представлены в комплексе</p>
+              <h2 id="brands-title">Магазины и бренды</h2>
+            </div>
+            <div class="brand-section__tools">
+              <p class="brand-section__intro">Познакомьтесь с компаниями, представленными в нашем комплексе.</p>
+              <div class="brand-section__controls" aria-label="Прокрутка списка магазинов">
+                <button class="brand-section__arrow" type="button" data-brand-direction="-1" aria-label="Прокрутить к предыдущим магазинам" disabled>
+                  <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M15 10H5m0 0 5-5m-5 5 5 5" /></svg>
+                </button>
+                <button class="brand-section__arrow" type="button" data-brand-direction="1" aria-label="Прокрутить к следующим магазинам" disabled>
+                  <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M5 10h10m0 0-5-5m5 5-5 5" /></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="brand-section__viewport" data-brand-viewport tabindex="0" role="region" aria-label="Магазины и бренды комплекса «Аквилон»">
+            <div class="brand-section__track">
+              <article class="brand-card brand-card--featured">
+                <a class="brand-card__mark" href="https://bastionmebel.ru/" target="_blank" rel="noopener noreferrer" aria-label="Перейти на сайт Бастион">
+                  <span class="brand-card__mark-address">www.bastionmebel.ru</span>
+                  <span class="brand-card__wordmark"><span>Бастион</span><span class="brand-card__symbol" aria-hidden="true">△</span><span>Мебель</span></span>
+                </a>
+                <div class="brand-card__body">
+                  <span class="brand-card__number">01</span>
+                  <h3 class="brand-card__title">Бастион</h3>
+                  <a class="brand-card__phone" href="tel:+79316220970">+7 (931) 622-09-70</a>
+                  <p class="brand-card__category">Библиотеки</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="scheme-feature" id="scheme" aria-labelledby="scheme-title">
+        <div class="scheme-feature__inner container">
+          <div class="scheme-feature__intro">
+            <p class="section-eyebrow">Схема и инфраструктура</p>
+            <h2 id="scheme-title">Осмотритесь.<br>И чувствуйте себя на месте.</h2>
+            <p class="scheme-feature__description">Пять корпусов, поэтажные планы и полезные ориентиры для вашего визита.</p>
+            <a class="scheme-feature__cta" href="/scheme/#plans">
+              <span>Открыть схему комплекса</span>
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5" /></svg>
+            </a>
+          </div>
+
+          <div class="scheme-feature__links" aria-label="Разделы схемы и инфраструктуры">
+            <a class="scheme-feature__link" href="/scheme/#plans">
+              <span class="scheme-feature__number">01</span>
+              <span class="scheme-feature__label">Корпуса и этажи</span>
+              <svg class="scheme-feature__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21h16M6 21V4h12v17M9 8h2m2 0h2M9 12h2m2 0h2M9 16h2m2 0h2" /></svg>
+            </a>
+            <a class="scheme-feature__link" href="/scheme/#infrastructure">
+              <span class="scheme-feature__number">02</span>
+              <span class="scheme-feature__label">Боулинг, бильярд и кафе</span>
+              <svg class="scheme-feature__icon scheme-feature__icon--arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M7 5h12v12" /></svg>
+            </a>
+            <a class="scheme-feature__link" href="/contacts/">
+              <span class="scheme-feature__number">03</span>
+              <span class="scheme-feature__label">Проезд и парковка</span>
+              <svg class="scheme-feature__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 22V2h7a6.5 6.5 0 0 1 0 13H7m0-4h7a2.5 2.5 0 0 0 0-5H7" /></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    
+      <section class="rental-feature" id="rental" aria-labelledby="rental-heading">
+        <div class="rental-feature__inner container">
+          <div class="rental-feature__intro">
+            <p class="section-eyebrow">Для вашего бизнеса</p>
+            <h2 id="rental-heading">Ваше дело.<br>Наше пространство.</h2>
+            <p>Офисы, торговые, выставочные и складские помещения. Расскажите о своей задаче — отдел аренды уточнит доступные варианты и условия.</p>
+            <a class="rental-feature__button" href="/arenda/">
+              <span>Об аренде помещений</span>
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5" /></svg>
+            </a>
+          </div>
+
+          <div class="rental-contact" id="rental-contact">
+            <p class="rental-contact__eyebrow">Отдел аренды</p>
+            <a class="rental-contact__phone" href="tel:+78125963476">+7 (812) 596-34-76</a>
+            <a class="rental-contact__email" href="mailto:akvilon4@ya.ru">
+              <span>akvilon4@ya.ru</span><span aria-hidden="true">↗</span>
+            </a>
+            <p class="rental-contact__hours">Пн–пт, 10:00–18:00, по производственному календарю</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit-section container" id="contacts" aria-labelledby="visit-title">
+        <div class="visit-section__main">
+          <p class="section-eyebrow">Легко найти</p>
+          <h2 id="visit-title">Встретимся<br>на Новолитовской</h2>
+          <p class="visit-section__address">Санкт-Петербург, Новолитовская улица, 15<br><span>Мебельный центр</span></p>
+
+          <div class="visit-details">
+            <div class="visit-detail">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              <p><span>Ежедневно</span><small>10:00–20:00</small></p>
+            </div>
+            <div class="visit-detail">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 22V2h7a6.5 6.5 0 0 1 0 13H7m0-4h7a2.5 2.5 0 0 0 0-5H7"/></svg>
+              <p><span>Парковка на территории</span><small>Условия въезда — у администрации</small></p>
+            </div>
+          </div>
+
+          <div class="visit-actions">
+            <a class="visit-button" href="https://yandex.ru/maps/?rtext=~Санкт-Петербург%2C%20Новолитовская%20улица%2C%2015В&rtt=auto" target="_blank" rel="noopener noreferrer">
+              <span>Построить маршрут</span><span class="visit-button__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="visit-link" href="/contacts/">Контакты и проезд <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <a class="visit-map" href="https://yandex.ru/maps/?text=Санкт-Петербург%2C%20Новолитовская%20улица%2C%2015В" target="_blank" rel="noopener noreferrer" aria-label="Открыть Аквилон в Яндекс Картах">
+          <div class="visit-map__art" aria-hidden="true">
+            <svg class="visit-map__drawing" viewBox="0 0 700 400" preserveAspectRatio="xMidYMid slice">
+              <rect width="700" height="400" fill="#eeefe9"/>
+              <path d="M0 70H700M0 150H700M0 230H700M0 310H700M90 0V400M190 0V400M290 0V400M390 0V400M490 0V400M590 0V400" stroke="#e1e2dc" stroke-width="1"/>
+              <path d="M-40 360 740 160" stroke="#fff" stroke-width="56"/>
+              <path d="M55 -35 185 435" stroke="#fff" stroke-width="36"/>
+              <path d="M320 80 475 42 515 148 350 178Z M525 225 677 190 710 305 547 340Z M215 259 345 225 375 312 240 346Z" fill="#dfe2d9"/>
+              <path d="M-40 360 740 160" stroke="#f7f7f4" stroke-width="2"/>
+              <text x="425" y="242" fill="#969b96" font-size="13" font-family="Arial" transform="rotate(-14 425 242)">Новолитовская улица</text>
+              <text x="105" y="117" fill="#969b96" font-size="12" font-family="Arial" transform="rotate(75 105 117)">Большой Сампсониевский проспект</text>
+            </svg>
+            <div class="visit-map__pin">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <strong>Аквилон</strong>
+              <span>Новолитовская, 15</span>
+            </div>
+          </div>
+          <div class="visit-map__caption">
+            <span><strong>Санкт-Петербург · Выборгский район</strong><small>Условный ориентир, не схема проезда</small></span>
+            <span class="visit-map__open" aria-hidden="true">↗</span>
+          </div>
+        </a>
+
+        <div class="visit-question">
+          <span>Остались вопросы о посещении?</span>
+          <a href="tel:+79522092821"><span>+7 (952) 209-28-21</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.1 3.7 9.5 3a1.5 1.5 0 0 1 1.8 1.1l.7 3a1.5 1.5 0 0 1-.6 1.6l-1.6 1.1a13 13 0 0 0 4.4 4.4l1.1-1.6a1.5 1.5 0 0 1 1.6-.6l3 .7a1.5 1.5 0 0 1 1.1 1.8l-.7 2.4a2 2 0 0 1-2 1.5A15.5 15.5 0 0 1 4.6 6a2 2 0 0 1 1.5-2.3Z"/></svg></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner container">
+        <div class="site-footer__brand-block">
+          <a class="site-footer__brand" href="#main" aria-label="Аквилон — главная">
+            <img src="./assets/akvilon-logo.svg" alt="Аквилон" width="177" height="34">
+            <span>Торгово-деловой комплекс</span>
+          </a>
+          <p class="site-footer__address">Санкт-Петербург,<br>Новолитовская улица, 15</p>
+          <p class="site-footer__tagline">Мебель для дома. Пространство для бизнеса.</p>
+        </div>
+
+        <nav class="site-footer__nav" aria-label="Навигация в подвале">
+          <a href="#main">О комплексе</a>
+          <a href="/catalog/">Мебель и интерьер</a>
+          <a href="/scheme/">Схема и инфраструктура</a>
+          <a href="/arenda/">Бизнес-центр и аренда</a>
+          <a href="/contacts/">Контакты и проезд</a>
+        </nav>
+
+        <div class="site-footer__contacts">
+          <p class="site-footer__label">Мебельный центр</p>
+          <a class="site-footer__phone" href="tel:+79522092821">+7 (952) 209-28-21</a>
+          <p class="site-footer__hours">Ежедневно, 10:00–20:00</p>
+          <p class="site-footer__label site-footer__label--rental">Отдел аренды</p>
+          <a class="site-footer__phone" href="tel:+78125963476">+7 (812) 596-34-76</a>
+          <a class="site-footer__email" href="mailto:akvilon4@ya.ru">akvilon4@ya.ru</a>
+        </div>
+
+        <details class="site-footer__legal">
+          <summary>Правовая информация и конфиденциальность</summary>
+          <p>Сведения с сайта комплекса проверены 24.10.2026. Условия посещения уточняйте у администрации.</p>
+        </details>
+
+        <div class="site-footer__bottom">
+          <span>© 2026 Аквилон</span>
+          <span>Сведения с сайта комплекса проверены 24.10.2026. Условия посещения уточняйте у администрации.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+
